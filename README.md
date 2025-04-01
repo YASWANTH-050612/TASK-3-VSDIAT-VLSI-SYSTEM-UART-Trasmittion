@@ -23,6 +23,9 @@ I created a block diagram to visualize the UART transmitter module. Here’s a b
 - **Control Logic**: Handles the management of start bits, data bits, and stop bits.
 - **TX Output**: The final output that drives the UART TX pin.
 
+- ![Screenshot (2498)](https://github.com/user-attachments/assets/0e15701f-e04a-4809-a404-7baf26e64f48)
+
+
 #### 2.2 Circuit Diagram
 I also created a circuit diagram to show how the FPGA’s UART TX pin connects to the receiving device. The FPGA's output pin sends data to the receiver, whether it's a PC or another device, using standard UART protocol. If needed, I added a voltage level converter to ensure the voltage levels were compatible between the FPGA and the receiving device.
 
